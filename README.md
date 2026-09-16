@@ -6,7 +6,7 @@ published scenes in an interactive 3D viewer, from inside Claude Code.
 ## Install
 
 ```
-/plugin marketplace add l2labs-dev/viewgs-plugin
+/plugin marketplace add view-gs/viewgs-plugin
 /plugin install viewgs@l2labs
 ```
 
