@@ -6,7 +6,7 @@ in an interactive 3D viewer, without leaving Claude Code.
 ## Install
 
 ```bash
-/plugin marketplace add l2labs/viewgs-plugin
+/plugin marketplace add l2labs-dev/viewgs-plugin
 /plugin install viewgs@l2labs
 ```
 
