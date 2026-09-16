@@ -7,7 +7,7 @@ published scenes in an interactive 3D viewer, from inside Claude Code.
 
 ```
 /plugin marketplace add view-gs/claude-code-plugin
-/plugin install viewgs@l2labs.dev
+/plugin install view-gs@l2labs-dev
 ```
 
 ## Viewing needs no account

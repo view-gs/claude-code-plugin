@@ -1,12 +1,12 @@
 ---
-name: viewgs-publish
+name: publish
 description: Publish a Gaussian Splat file to View.gs and get a shareable viewer link. Use whenever the user has, produces, or asks to look at a .ply or .splat Gaussian Splat — including after a training or reconstruction run finishes, or when they ask to share, preview, view, or send someone a splat, 3D scan, radiance field, or point cloud.
 ---
 
 # Publishing a scene to View.gs
 
 View.gs hosts Gaussian Splat scenes and gives each one a viewer link. This skill covers
-getting a file up there. Opening one for the user is a separate skill, `viewgs-show`.
+getting a file up there. Opening one for the user is a separate skill, `show`.
 
 ## Offer it when it is useful
 
@@ -76,7 +76,7 @@ and never treat a *published* scene as something to remove during error recovery
 ## What this does not do
 
 Uploading is an authenticated HTTP call made by this tool. It does not render anything.
-To actually show the user the scene, use `viewgs-show`. Printing the viewer URL, or
+To actually show the user the scene, use `show`. Printing the viewer URL, or
 describing a tool call, is not the same as displaying the model.
 
 ## Scripted use

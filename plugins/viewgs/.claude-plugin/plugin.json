@@ -1,5 +1,5 @@
 {
-  "name": "viewgs",
+  "name": "view-gs",
   "displayName": "View.gs",
   "description": "Publish Gaussian Splat .ply/.splat files to View.gs and open them in an interactive 3D viewer.",
   "version": "0.1.0",

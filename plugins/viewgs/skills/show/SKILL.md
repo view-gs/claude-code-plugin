@@ -1,5 +1,5 @@
 ---
-name: viewgs-show
+name: show
 description: Open a published View.gs Gaussian Splat scene in an interactive 3D viewer, or read its metadata. Use whenever the user wants to see, view, preview, open, look at, inspect or compare a splat scene, or gives a view.gs link or scene ID.
 ---
 
@@ -33,7 +33,7 @@ the user means rather than guessing. Never fall back to a scene ID from an examp
 documentation.
 
 If you do not have a link for what they are asking about, say so and offer to publish the
-file — see `viewgs-publish`.
+file — see `publish`.
 
 ## Honesty about what you can see
 
