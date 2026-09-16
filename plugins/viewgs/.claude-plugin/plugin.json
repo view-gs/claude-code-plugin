@@ -3,10 +3,21 @@
   "displayName": "View.gs",
   "description": "Publish Gaussian Splat .ply/.splat files to View.gs and open them in an interactive 3D viewer.",
   "version": "0.1.0",
-  "author": {"name": "L2labs", "url": "https://view.gs"},
+  "author": {
+    "name": "L2labs",
+    "url": "https://view.gs"
+  },
   "homepage": "https://view.gs",
-  "license": "UNLICENSED",
-  "keywords": ["gaussian-splatting", "splat", "ply", "3d", "viewer", "point-cloud", "photogrammetry"],
+  "license": "MIT",
+  "keywords": [
+    "gaussian-splatting",
+    "splat",
+    "ply",
+    "3d",
+    "viewer",
+    "point-cloud",
+    "photogrammetry"
+  ],
   "userConfig": {
     "viewgs_api_key": {
       "type": "string",

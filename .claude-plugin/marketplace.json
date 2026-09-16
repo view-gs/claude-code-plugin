@@ -22,7 +22,8 @@
         "ply",
         "3d",
         "viewer"
-      ]
+      ],
+      "license": "MIT"
     }
   ]
 }
