@@ -1,0 +1,28 @@
+{
+  "$schema": "https://schema.claude.ai/marketplace.schema.json",
+  "name": "l2labs",
+  "description": "Gaussian Splat tooling from L2labs: publish .ply and .splat scenes to View.gs and open them in an interactive 3D viewer.",
+  "owner": {
+    "name": "L2labs",
+    "url": "https://view.gs"
+  },
+  "plugins": [
+    {
+      "name": "viewgs",
+      "source": "./plugins/viewgs",
+      "description": "Publish Gaussian Splat .ply/.splat files to View.gs and open them in an interactive 3D viewer.",
+      "version": "0.1.0",
+      "author": {
+        "name": "L2labs",
+        "url": "https://view.gs"
+      },
+      "keywords": [
+        "gaussian-splatting",
+        "splat",
+        "ply",
+        "3d",
+        "viewer"
+      ]
+    }
+  ]
+}

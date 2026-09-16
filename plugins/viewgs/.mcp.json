@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "viewgs": {
+      "type": "http",
+      "url": "https://view.gs/api/mcp"
+    },
+    "viewgs-upload": {
+      "command": "node",
+      "args": [
+        "${CLAUDE_PLUGIN_ROOT}/scripts/viewgs-upload.mjs",
+        "--mcp"
+      ],
+      "env": {
+        "VIEWGS_API_KEY": "${user_config.viewgs_api_key}",
+        "VIEWGS_API_BASE": "${user_config.viewgs_api_base}"
+      }
+    }
+  }
+}
