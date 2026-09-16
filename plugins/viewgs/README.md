@@ -7,7 +7,7 @@ in an interactive 3D viewer, without leaving Claude Code.
 
 ```bash
 /plugin marketplace add view-gs/claude-code-plugin
-/plugin install viewgs@l2labs
+/plugin install viewgs@l2labs-dev
 ```
 
 Then set your API key: `/plugin` → View.gs → Configure → **View.gs API key**. It is stored
